@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galery</title>
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- JS -->
+    <script src="./js/galery.js" defer></script>
+  </head>
+  <body class="body-galery">
+    <a href="./index.html"><button>Volver al INDEX</button></a>
+    <h2>Fotos de la NASA</h2>
+    <form action="" id="form">
+      <button onclick="showData(event)" type="submit">
+        Solicitar fotos de la API
+      </button>
+    </form>
+
+    <div id="root-galery"></div>
+  </body>
+</html>
